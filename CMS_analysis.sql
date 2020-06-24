@@ -1,5 +1,4 @@
----create new table
-CREATE TABLE tbl_new AS SELECT * FROM CMS_2017;
+
 --Print all rows
 select count(*) from CMS_2017; ---9847444
 
