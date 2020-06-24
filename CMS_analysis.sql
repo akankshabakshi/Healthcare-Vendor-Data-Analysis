@@ -2,23 +2,29 @@
 CREATE TABLE tbl_new AS SELECT * FROM CMS_2017;
 --Print all rows
 select count(*) from CMS_2017; ---9847444
+
 --Check if doctor, zipcode, Code are repeating multiple times
 select NPI, Zipcode, HCPCSCode, count(*) from CMS_2017
 group by NPI, Zipcode, HCPCSCode;
+
 --Check if one NPI can have multiple names
 select NPI, Zipcode, HCPCSCode, count(*) as count from CMS_2017
 group by NPI, Zipcode, HCPCSCode;
+
 --This is because of Place of Service 'F' and 'O'
 select distinct PlaceofService from CMS_2017;
---Check if there are more than 2 rows for the above CASE
+
+--Check if there are more than 2 rows for the above CASE using CTE
 with result as(
 select NPI, Zipcode, HCPCSCode, count(*) as count from CMS_2017
 group by NPI, Zipcode, HCPCSCode
 ) select * from result where count>2;
 ---no cases other than that
+
 ----check if one code can have multiple names
 select HCPCSCode, HCPCSDescription, count(*) as count from CMS_2017
 group by HCPCSCode, HCPCSDescription;
+
 ---View what EntityType entails
 select distinct EntityType from CMS_2017;
 ----Result: 'I' and 'O'
@@ -45,9 +51,11 @@ select count(distinct NPI) from CMS_2017; ----1032912
 
 ----length of zip codes
 select  zipcode, length(Zipcode) from CMS_2017 limit 10;
+
 ---top 2 zipcodes 
 select zipcode, dense_rank() over(order by length(zipcode) desc) from CMS_2017
  ----so we are getting only 9 digit zip codes only
+ 
  ----total doctors and facilities
  select count(distinct NPI) from CMS_2017; ----1032912
  ---- doctors
