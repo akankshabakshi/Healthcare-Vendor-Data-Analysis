@@ -17,7 +17,7 @@
   - Cost
   
 # Use Case
-- To run a exploratory analysis on the data
+- To run an exploratory analysis on the data
 - To identify the primary fields, must have and nice of have fields
 - To identify relationships
 For example: 
