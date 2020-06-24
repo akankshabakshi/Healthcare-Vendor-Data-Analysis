@@ -28,6 +28,8 @@ For example:
 - Can we check how many procedures have no facilities? 
 - Any value proposition features that can be derived out of this dataset? 
 
+File can be found here: https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier2017
+(Please note, I have used 2017 - (recently updated) dataset for the analysis, and referred to other years dataset to check any unexpected change in numbers)
 
 
 
