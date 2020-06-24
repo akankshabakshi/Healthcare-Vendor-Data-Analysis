@@ -163,24 +163,3 @@ select distinct NPI, HCPCSCode, count(*) from cms_final_tbl
 group by NPI, HCPCSCode; 
 
 #With the above analysis, the file looks usable now
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
