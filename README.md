@@ -4,7 +4,7 @@
 # Index
 1. Background
 2. Use Case
-3. Workflow Analysis
+3. Related Analysis
 
 # Background
 - Exploring CMS data
@@ -34,7 +34,3 @@ For example:
 # Related links
 File can be found here: https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier2017
 (Please note, I have used 2017 - (recently updated) dataset for the analysis, and referred to other years dataset to check any unexpected change in numbers)
-
-
-
-
