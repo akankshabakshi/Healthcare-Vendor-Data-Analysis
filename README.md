@@ -20,13 +20,14 @@ Index
 - To identify relationships
 For example: 
 - A doctor(a.k.a provider) can perform at multiple locations
-- A facility(a.k.a 
+- A facility(a.k.a provider) can perform at multiple locations
 - What are the reasons due to which record of provider(doctor or facility) can have multiple rows? 
 - Is there a distinguisher column of doctor or facility? 
 - Can we identify the doctor working in the facility using the dataset? 
 - Can we check how many procedures have no doctors? 
 - Can we check how many procedures have no facilities? 
 - Any value proposition features that can be derived out of this dataset? 
+
 
 
 
