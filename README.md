@@ -1,7 +1,7 @@
 # Healtcare Vendor Data Analysis 
 ![](https://github.com/akankshabakshi/Healthcare-Vendor-Data-Analysis/blob/master/mri.png)
 
-Index
+# Index
 1. Background
 2. Use Case
 3. Workflow Analysis
