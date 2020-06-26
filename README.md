@@ -7,7 +7,7 @@
 3. Related Analysis
 
 # Background
-- Exploring CMS data
+- Exploring open source - CMS data(Refer to the link section mentioned below to access the data)
 - CMS data contains provider information along with: 
   - NPI - National Provider Identifier
   - Provider Name
