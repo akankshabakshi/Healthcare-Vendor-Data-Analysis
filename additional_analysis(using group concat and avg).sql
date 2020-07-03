@@ -8,7 +8,7 @@ group by NPI;
 ---type 'O' indicates that the NPI is a facility and count above would return the count of times those NPI rows have repeated, not exactly the different names count as 1
 
 ---To find the NPI having multiple names
-select NPI, group_concat(distinct Facilityname), count(distinct n.Facilityname) as count
+select NPI, group_concat(distinct Facilityname), count(distinct Facilityname) as count
 from CMS
 where type = 'O'
 group by NPI;
