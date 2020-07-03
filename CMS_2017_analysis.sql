@@ -131,6 +131,9 @@ select count(distinct NPI) from cms_table  --1032912
  select count(NPI) from cms_table; --9509701
 ---Conclusion: In the cms_table, NPI column is the primary field
 
+----Pattern finding using like SQL 
+select * from CMS_2017 where cast(zip as CHAR) like '60160%';
+
 ---create final table with all must have and nice of have rows
 create table cms_final_tbl as
 select NPI, 
