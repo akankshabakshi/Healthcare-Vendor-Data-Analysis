@@ -173,3 +173,5 @@ select distinct NPI, HCPCSCode, count(*) from cms_final_tbl
 group by NPI, HCPCSCode; 
 
 #With the above analysis, the file looks usable now
+
+Note - in case array value is there and while performing it's causing a problem use "any" query on that field to map the two fields
